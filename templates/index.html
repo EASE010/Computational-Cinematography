@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p align="center" style="font-size: 20px; font-weight: bolder">展示视频中的关键帧</p><br><br>
+{% for hist in hists %}
+        <img style="width: 200px; height: auto" src="{{hist}}" alt="{{hist}}">
+    {% endfor %}
+</body>
+</html>
